@@ -1,0 +1,98 @@
+.top{
+		padding-top:15vh;
+}
+.counter{
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: .15em;
+	font-size: 13px;
+    font-weight: 700;
+    padding-left: 15vw;
+    padding-top: 30vh;
+
+}
+
+.vertical{
+	transform: rotate(-90deg);
+	padding-left: 10%;
+		position: absolute;
+		padding-top: 16vh;
+
+}
+
+p{
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	overflow-wrap: break-word;
+	line-height: 25px;
+}
+
+.name{
+	line-height: 0px;
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.buisness{
+	font-family: 'Roboto', sans-serif;
+	color:#b8bbbc;
+	font-size: 13px;
+	font-weight: 400;
+	padding-bottom: 2vw;
+}
+
+.rightCopy{
+	margin-left:1vw;
+	margin-right: 1vw;
+	padding-left: 58vw;
+	/*display:inline-block;*/
+	max-width: 25vw;
+	height: 100vh;
+	z-index: -1;
+}
+
+.tall{
+	width: 15vw;
+    height: 48vw;
+    object-fit: cover;
+    position: relative;
+   /* padding-top: 2vw;
+    padding-left: 40vw;*/
+    z-index: 1;
+
+}
+
+.small{
+	/*width: 10vw;
+	height: 10vw;*/
+	padding: .5vw;
+	object-fit: cover;
+	justify-content: center;
+	/*padding-top: 15vw;*/
+	z-index: 1;
+	overflow: hidden;
+	float: bottom;
+	object-position: 150%
+
+
+}
+
+.container{
+	display: flex;
+	flex-wrap: nowrap;
+	grid-column-gap: .5vw;
+	grid-row-gap: 1.5vw;
+  	grid-template-rows: auto auto auto auto auto ;
+  	grid-template-columns: auto auto auto auto auto ;
+/*  margin: 3%;*/
+}
+
+.container-item{
+	width: 11vw;
+	height: 11vw;
+	text-align: center;
+}
+
+
+
+
